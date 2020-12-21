@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.2/cosmo/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="stylesheet" href="index.css">
+<title>Title</title>
+</head>
+<body>
+	<h1>CSS-only Carousel</h1>
+
+<p>This carousel is created with HTML and CSS only.</p>
+
+<section class="carousel" aria-label="Gallery">
+  <ol class="carousel__viewport">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+				<img src="img/desk.png">
+      <div class="snapper">
+        <a href="#carousel__slide4"
+           class="carousel__prev"></a>
+        <a href="#carousel__slide2"
+           class="carousel__next"></a>
+      </div>
+    </li>
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+				<img src="img/desk2.png">
+      <div class="snapper"></div>
+      <a href="#carousel__slide1"
+         class="carousel__prev"></a>
+      <a href="#carousel__slide3"
+         class="carousel__next"></a>
+    </li>
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+				<img src="img/desk3.png">
+      <div class="snapper"></div>
+      <a href="#carousel__slide2"
+         class="carousel__prev"></a>
+      <a href="#carousel__slide4"
+         class="carousel__next"></a>
+    </li>
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+				<img src="img/desk.png">
+      <div class="snapper"></div>
+      <a href="#carousel__slide3"
+         class="carousel__prev"></a>
+      <a href="#carousel__slide5"
+         class="carousel__next"></a>
+    </li>
+		 <li id="carousel__slide5"
+        tabindex="0"
+        class="carousel__slide">
+				<img src="img/desk3.png">
+      <div class="snapper"></div>
+      <a href="#carousel__slide4"
+         class="carousel__prev"></a>
+      <a href="#carousel__slide1"
+         class="carousel__next"></a>
+    </li>
+  </ol>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+           class="carousel__navigation-button">Go to slide 1</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+           class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+           class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4"
+           class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+			<li class="carousel__navigation-item">
+        <a href="#carousel__slide5"
+           class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
