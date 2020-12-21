@@ -1,3 +1,4 @@
+
 @keyframes next-animation {
   75% {
     left: 0;
@@ -71,6 +72,10 @@ body {
 
 * {
   -ms-overflow-style: none;
+}
+h1, p {
+		font-weight: bold;
+		text-align: center;
 }
 
 ol, li {
