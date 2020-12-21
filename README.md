@@ -9,7 +9,7 @@
 
 
 
-![sample](https://media.giphy.com/media/hDCxBhjGqyXnmf4s7Z/giphy.gif)
+![sample](img/giphy.webp)
 
 ## Background
 
