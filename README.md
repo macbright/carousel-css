@@ -5,7 +5,12 @@
 [![dependencies Status](https://david-dm.org/dwyl/esta/status.svg)](https://david-dm.org/dwyl/esta)
 
 
--
+- in this project i created Carousel with plain CSS and HTML. i didn't use webpacker or any bundler because it was a mini web app.  
+- I basically created a list of five element with images in each of them and each of this element has an inner div with two anchor element. one of the anchor elemenet takes you to the next slide or the next element in the list while the other takes you to the previous. 
+- the anchor elements in the inner divs makes use of slide ID to navigate through the list of the five elements.
+- I also have an aside element that makes use of anchor tags also to jump to a particular slide. 
+- for the CSS styling i used made use of keyframes to animate through the slides
+
 
 
 
